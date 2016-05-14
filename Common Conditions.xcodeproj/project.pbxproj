@@ -12,6 +12,11 @@
 		1A61CFB91CD457D40059E089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A61CFB71CD457D40059E089 /* Main.storyboard */; };
 		1A61CFBB1CD457D40059E089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A61CFBA1CD457D40059E089 /* Assets.xcassets */; };
 		1A61CFBE1CD457D40059E089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A61CFBC1CD457D40059E089 /* LaunchScreen.storyboard */; };
+		1A61CFC61CD459980059E089 /* HerniaPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A61CFC51CD459980059E089 /* HerniaPageViewController.swift */; };
+		1A61CFC81CD45B240059E089 /* VeinsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A61CFC71CD45B240059E089 /* VeinsPageViewController.swift */; };
+		1AB33C0E1CE22AF000A6456F /* SclerotherapyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB33C0D1CE22AF000A6456F /* SclerotherapyViewController.swift */; };
+		1AFCFB861CE275A000C4C67D /* AmbulatoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCFB851CE275A000C4C67D /* AmbulatoryViewController.swift */; };
+		1AFCFB881CE2765D00C4C67D /* LaserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCFB871CE2765D00C4C67D /* LaserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		1A61CFBA1CD457D40059E089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A61CFBD1CD457D40059E089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A61CFBF1CD457D40059E089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A61CFC51CD459980059E089 /* HerniaPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HerniaPageViewController.swift; sourceTree = "<group>"; };
+		1A61CFC71CD45B240059E089 /* VeinsPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VeinsPageViewController.swift; sourceTree = "<group>"; };
+		1AB33C0D1CE22AF000A6456F /* SclerotherapyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SclerotherapyViewController.swift; sourceTree = "<group>"; };
+		1AFCFB851CE275A000C4C67D /* AmbulatoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmbulatoryViewController.swift; sourceTree = "<group>"; };
+		1AFCFB871CE2765D00C4C67D /* LaserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 				1A61CFB31CD457D40059E089 /* AppDelegate.swift */,
 				1A61CFB51CD457D40059E089 /* ViewController.swift */,
 				1A61CFB71CD457D40059E089 /* Main.storyboard */,
+				1AFCFB871CE2765D00C4C67D /* LaserViewController.swift */,
+				1AB33C0D1CE22AF000A6456F /* SclerotherapyViewController.swift */,
+				1A61CFC71CD45B240059E089 /* VeinsPageViewController.swift */,
+				1A61CFC51CD459980059E089 /* HerniaPageViewController.swift */,
+				1AFCFB851CE275A000C4C67D /* AmbulatoryViewController.swift */,
 				1A61CFBA1CD457D40059E089 /* Assets.xcassets */,
 				1A61CFBC1CD457D40059E089 /* LaunchScreen.storyboard */,
 				1A61CFBF1CD457D40059E089 /* Info.plist */,
@@ -136,7 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A61CFB61CD457D40059E089 /* ViewController.swift in Sources */,
+				1A61CFC81CD45B240059E089 /* VeinsPageViewController.swift in Sources */,
 				1A61CFB41CD457D40059E089 /* AppDelegate.swift in Sources */,
+				1AB33C0E1CE22AF000A6456F /* SclerotherapyViewController.swift in Sources */,
+				1AFCFB881CE2765D00C4C67D /* LaserViewController.swift in Sources */,
+				1AFCFB861CE275A000C4C67D /* AmbulatoryViewController.swift in Sources */,
+				1A61CFC61CD459980059E089 /* HerniaPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +273,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bardell.Common-Conditions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -264,6 +285,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bardell.Common-Conditions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -286,6 +308,7 @@
 				1A61CFC41CD457D50059E089 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
